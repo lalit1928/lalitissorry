@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lalit is Sorry</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+}
+
+/* 🔐 LOGIN PAGE */
+#loginPage {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 20px;
+    background: #ff4b5c;
+    color: white;
+    cursor: pointer;
+}
+
+/* 💖 MAIN PAGE */
+#mainPage {
+    display: none;
+    padding: 40px 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+h1 {
+    font-size: 3rem;
+    text-shadow: 0 0 15px rgba(255,255,255,0.6);
+}
+
+p {
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+/* 📸 PHOTO STYLE */
+.photo-box {
+    margin-bottom: 25px;
+}
+
+img {
+    width: 220px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.caption {
+    font-size: 1rem;
+    opacity: 0.8;
+    margin-top: 5px;
+}
+
+/* 💬 BUTTONS */
+.btn {
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.yes {
+    background: #ff4b5c;
+}
+
+.no {
+    background: #444;
+    position: absolute;
+}
+
+#response {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    opacity: 0;
+    transition: 1s;
+}
+
+/* ✨ ANIMATION */
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(20px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+</style>
+</head>
+
+<body>
+
+<!-- 🔐 LOGIN PAGE -->
+<div id="loginPage">
+    <h1>Enter Password 🔐</h1>
+    <p>Only for someone special ❤️</p>
+
+    <input type="password" id="pass" placeholder="Enter code...">
+    <button onclick="checkPass()">Open</button>
+
+    <p id="wrong" style="color:red;"></p>
+</div>
+
+<!-- 💖 MAIN PAGE -->
+<div id="mainPage">
+
+    <h1>Lalit is Sorry 💔</h1>
+
+    <p>
+        I know I made mistakes, and I can’t undo the past… <br><br>
+        But I made this to show that I still care. <br><br>
+        I’m hoping to make things right between us,  
+        without any pressure—just honestly trying my best. <br><br>
+        If you’re willing… maybe we can start with one simple date? 🥺
+    </p>
+
+    <!-- 📸 4 PHOTOS WITH CAPTIONS -->
+    <div class="photo-box">
+        <img src="photo1.jpg">
+        <p class="caption">I am more romantic than this now💭</p>
+    </div>
+
+    <div class="photo-box">
+        <img src="photo2.jpg">
+        <p class="caption">I still believe we are for each other ❤️</p>
+    </div>
+
+    <div class="photo-box">
+        <img src="photo3.jpg">
+        <p class="caption">You r still in my eyes  👀<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lalit is Sorry</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+}
+
+/* 🔐 LOGIN PAGE */
+#loginPage {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 20px;
+    background: #ff4b5c;
+    color: white;
+    cursor: pointer;
+}
+
+/* 💖 MAIN PAGE */
+#mainPage {
+    display: none;
+    padding: 40px 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+h1 {
+    font-size: 3rem;
+    text-shadow: 0 0 15px rgba(255,255,255,0.6);
+}
+
+p {
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+/* 📸 PHOTO STYLE */
+.photo-box {
+    margin-bottom: 25px;
+}
+
+img {
+    width: 220px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.caption {
+    font-size: 1rem;
+    opacity: 0.8;
+    margin-top: 5px;
+}
+
+/* 💬 BUTTONS */
+.btn {
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.yes {
+    background: #ff4b5c;
+}
+
+.no {
+    background: #444;
+    position: absolute;
+}
+
+#response {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    opacity: 0;
+    transition: 1s;
+}
+
+/* ✨ ANIMATION */
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(20px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+</style>
+</head>
+
+<body>
+
+<!-- 🔐 LOGIN PAGE -->
+<div id="loginPage">
+    <h1>Enter Password 🔐</h1>
+    <p>Only for someone special ❤️</p>
+
+    <input type="password" id="pass" placeholder="Enter code...">
+    <button onclick="checkPass()">Open</button>
+
+    <p id="wrong" style="color:red;"></p>
+</div>
+
+<!-- 💖 MAIN PAGE -->
+<div id="mainPage">
+
+    <h1>Lalit is Sorry 💔</h1>
+
+    <p>
+        I know I made mistakes, and I can’t undo the past… <br><br>
+        But I made this to show that I still care. <br><br>
+        I’m hoping to make things right between us,  
+        without any pressure—just honestly trying my best. <br><br>
+        If you’re willing… maybe we can start with one simple date? 🥺
+    </p>
+
+    <!-- 📸 4 PHOTOS WITH CAPTIONS -->
+    <div class="photo-box">
+        <img src="photo1.jpg">
+        <p class="caption">One of my favorite memories with you 💭</p>
+    </div>
+
+    <div class="photo-box">
+        <img src="photo2.jpg">
+        <p class="caption">I still smile thinking about this moment ❤️</p>
+    </div>
+
+    <div class="photo-box">
+        <img src="photo3.jpg">
+        <p class="caption">You looked happiest here ✨</p>
+    </div>
+
+    <div class="photo-box">
+        <img src="photo4.jpg">
+        <p class="caption">This will always mean something to me 🥺</p>
+    </div>
+
+    <p>Will you go on a date with me?</p>
+
+    <button class="btn yes" onclick="yesClicked()">Yes ❤️</button>
+    <button class="btn no" id="noBtn">No 💔</button>
+
+    <div id="response"></div>
+
+</div>
+
+<script>
+function checkPass() {
+    const pass = document.getElementById("pass").value;
+    if (pass === "1928") {
+        document.getElementById("loginPage").style.display = "none";
+        document.getElementById("mainPage").style.display = "block";
+    } else {
+        document.getElementById("wrong").innerText = "Wrong password 💔";
+    }
+}
+
+function yesClicked() {
+    const res = document.getElementById("response");
+    res.innerText = "You just made me the happiest person 🥹❤️";
+    res.style.opacity = 1;
+}
+
+/* 😏 Moving No button */
+const noBtn = document.getElementById("noBtn");
+
+noBtn.addEventListener("mouseover", () => {
+    const x = Math.random() * window.innerWidth * 0.8;
+    const y = Math.random() * window.innerHeight * 0.8;
+    noBtn.style.left = x + "px";
+    noBtn.style.top = y + "px";
+});
+</script>
+
+</body>
+</html></p>
+    </div>
+
+    <div class="photo-box">
+        <img src="photo4.jpg">
+        <p class="caption">i changed my aesthetics according to you 🐼</p>
+    </div>
+
+    <p>Will you go on a date with me?</p>
+
+    <button class="btn yes" onclick="yesClicked()">Yes ❤️</button>
+    <button class="btn no" id="noBtn">No 💔</button>
+
+    <div id="response"></div>
+
+</div>
+
+<script>
+function checkPass() {
+    const pass = document.getElementById("pass").value;
+    if (pass === "1928") {
+        document.getElementById("loginPage").style.display = "none";
+        document.getElementById("mainPage").style.display = "block";
+    } else {
+        document.getElementById("wrong").innerText = "Wrong password 💔";
+    }
+}
+
+function yesClicked() {
+    const res = document.getElementById("response");
+    res.innerText = "You just made me the happiest person 🥹❤️";
+    res.style.opacity = 1;
+}
+
+/* 😏 Moving No button */
+const noBtn = document.getElementById("noBtn");
+
+noBtn.addEventListener("mouseover", () => {
+    const x = Math.random() * window.innerWidth * 0.8;
+    const y = Math.random() * window.innerHeight * 0.8;
+    noBtn.style.left = x + "px";
+    noBtn.style.top = y + "px";
+});
+</script>
+
+</body>
+</html>
